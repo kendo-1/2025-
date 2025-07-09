@@ -26,11 +26,11 @@ snarkjs --version
 
 ```
 
-![image-20250709112217728](C:\Users\28795\Desktop\project3\image-20250709112217728.png)
+![image-20250709112217728](https://github.com/kendo-1/2025-/blob/main/project3/image-20250709112217728.png)
 
 Circom及SnarkJS工作流程：
 
-![image-20250709112926309](C:\Users\28795\Desktop\project3\image-20250709112926309.png)
+![image-20250709112926309](https://github.com/kendo-1/2025-/blob/main/project3/image-20250709112926309.png)
 
 * Circom：编写ZKP电路的DSL.
 
@@ -45,7 +45,7 @@ circom circuits/poseidon2.circom --r1cs --wasm --sym
 
 poseidon2_hash.py的结果如下：
 
-![image-20250709144817110](C:\Users\28795\Desktop\project3\image-20250709144817110.png)
+![image-20250709144817110](https://github.com/kendo-1/2025-/blob/main/project3/image-20250709144817110.png)
 
 根据函数结果准备输入文件（input.json)
 
@@ -75,6 +75,12 @@ snarkjs zkey export verificationkey poseidon2.r1cs poseidon2_0000.zkey
 snarkjs groth16 verify verification_key.json public.json proof.json
 ```
 
-![image-20250709164321174](C:\Users\28795\Desktop\project3\image-20250709164321174.png)
+![image-20250709164321174](https://github.com/kendo-1/2025-/blob/main/project3/image-20250709164321174.png)
 
-![image-20250709164342566](C:\Users\28795\Desktop\project3\image-20250709164342566.png)
+![image-20250709164342566](https://github.com/kendo-1/2025-/blob/main/project3/image-20250709164342566.png)
+
+## 参考文献
+* https://www.mdnice.com/writing/b0494091e83144cfafcaa2883ad2fcc6
+* https://docs.circom.io/
+* https://github.com/iden3/circomlib
+* poseidon2哈希算法https://eprint.iacr.org/2023/323.pdf
