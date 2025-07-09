@@ -127,8 +127,18 @@ DCT水印测试结果:
 +------------------+--------------------+------------+--------+--------+
 | 缩放(1.2x)       | kkîdo,20:60°tv01¶µ | 否         | 0.0833 | DCT    |
 +------------------+--------------------+--
+
+
+
 ```
 
-<img src="C:\Users\28795\AppData\Roaming\Typora\typora-user-images\image-20250708210542658.png" alt="image-20250708210542658" style="zoom: 67%;" />  
 
-<img src="C:\Users\28795\AppData\Roaming\Typora\typora-user-images\image-20250708210617676.png" alt="image-20250708210617676" style="zoom:67%;" />
+
+
+![lsb_robustness_results](https://github.com/kendo-1/2025-/blob/main/project2/lsb_robustness_results.png)
+
+![dct_robustness_results](https://github.com/kendo-1/2025-/blob/main/project2/dct_robustness_results.png)
+## 参考文献
+* https://blog.csdn.net/qq_41821067/article/details/111062871
+* https://blog.csdn.net/2301_76279010/article/details/144728695?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-144728695-blog-125036240.235%5Ev43%5Econtrol&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-144728695-blog-125036240.235%5Ev43%5Econtrol
+*
