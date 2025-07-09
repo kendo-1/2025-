@@ -102,7 +102,7 @@ T(Z) = T0[Z0] ⊕ T1[Z1] ⊕ T2[Z2] ⊕ T3[Z3]
 ### 结论
 查表法通过预计算 T 变换，显著减少了轮函数的计算开销，在测试中实现了 2.31 倍的性能提升。这种优化适合高性能应用场景，如服务器端加密和大数据加密处理。
 
-<img src="C:\Users\28795\AppData\Roaming\Typora\typora-user-images\image-20250707164125197.png" alt="image-20250707164125197" style="zoom:67%;" />
+![image-20250707164125197](C:\Users\28795\Desktop\project1\image-20250707164125197.png)
 
 ```
 
