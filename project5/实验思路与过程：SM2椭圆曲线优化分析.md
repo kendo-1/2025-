@@ -91,7 +91,7 @@ graph TD
 
 ## 实验结果分析
 
-![image-20250712104840187](C:\Users\28795\Desktop\project5\image-20250712104840187.png)
+![image-20250712104840187](https://github.com/kendo-1/2025-/blob/main/project5/image-20250712104840187.png)
 
 ### 点加运算优化效果
 | 优化技术   | 时间(μs) | 加速比 |
